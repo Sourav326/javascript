@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h3>Debouncing</h3>
+    <input type="text" name="debouncing" placeholder="Debouncing.." onkeypress="searchFilter()" />
+
+    <h3>Event Bubbling, Event Capturing/Trickling</h3>
+    <div id="grandParent">
+        Grandparent
+        <div id="parent1">
+            Parent
+            <div id="child">
+                Child
+            </div>
+        </div>
+    </div>
+
+    <h3>Event Delegation</h3>
+    <div>
+        <ul id="categories">
+            <li id="laptops">Laptops</li>
+            <li id="mobiles">Mobiles</li>
+            <li id="shoes">Shoes</li>
+            <li id="cloths">Cloths</li>
+        </ul>
+    </div>
+
+    <h3>Local Storage/ Session Storage</h3>
+
+    <script src="currying.js"></script>
+    <script src="debouncing.js"></script>
+    <script src="eventBubblingCapturingTrickling.js"></script>
+    <script src="eventDelegation.js"></script>
+    <script src="localStorageSessionStorage.js"></script>
+    <script src="typeCoercion.js"></script>
+</body>
+</html>

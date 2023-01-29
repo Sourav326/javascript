@@ -1,0 +1,12 @@
+#grandParent{
+    border: 1px solid green;
+    padding:1rem;
+}
+#parent1{
+    border: 1px solid red;
+    padding:1rem;
+}
+#child{
+    border: 1px solid blue;
+    padding:1rem;
+}
