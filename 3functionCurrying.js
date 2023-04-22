@@ -35,3 +35,11 @@ multiplyByTwoClose(2);
 
 const multiplyByThreeClose = multiplyclose(5);
 multiplyByThreeClose(3);
+
+
+const myMultipleClose = function(x){
+    return function(y){
+        console.log(x * y);
+    }
+}
+myMultipleClose(5);
